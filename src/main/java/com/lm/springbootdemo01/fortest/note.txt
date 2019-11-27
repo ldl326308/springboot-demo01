@@ -1,0 +1,9 @@
+<<测试>>
+    1、@SpringJUnit4ClassRunner在JUnit环境下提供Spring TestContext Framework功能
+        @RunWith(SpringJUnit4ClassRunner.class)
+
+    2、@ContextConfiguration用来加载ApplicationContext，其中classes用来加载配置类
+        @ContextConfiguration(classes = {TestConfig.class})
+
+    3、@ActiveProfiles用来声明活动的profile
+        @ActiveProfiles("prod")

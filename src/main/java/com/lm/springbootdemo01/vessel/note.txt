@@ -1,0 +1,7 @@
+<<Spring注册Bean的方式>>
+
+第一种方式：类上添加注解@Service、@Controller、@Component、@Repository，
+    再通过配置类注解@ComponentScan指定扫描包名的路径，对有以上注解的类注册为bean
+
+第二种方式：在配置类中，写一个返回需要注册的对象的方法，方法上加上注解@Bean
+

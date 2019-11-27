@@ -1,0 +1,5 @@
+<<引用外部资源文件>>
+    1、通过注解@PropertySource引入外部资源文件
+        @PropertySource(value = "classpath:el/test.properties")
+
+    2、通过注解@Value注入值

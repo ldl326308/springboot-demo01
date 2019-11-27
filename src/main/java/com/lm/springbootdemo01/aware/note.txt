@@ -1,0 +1,7 @@
+<<通过实现不同的Aware接口，获取不同的服务>>
+    1、BeanNameAware     获取容器中Bean的名称
+    2、BeanFactoryAware      获取当前bean Factory，这样可以调用容器的服务
+    3、ApplicationContextAware   当前的 application context，这样可以调用容器的服务
+    4、MessageSourceAware        获得message source，这样可以获取文本信息
+    5、ApplicationEventPublisherAware    应用事件发布器，可以发布事件
+    6、ResourceLoaderAware   获得资源加载器，可以获得外部资源文件

@@ -1,0 +1,4 @@
+<<事件监听>>
+    1、自定义事件：继承ApplicationEvent
+    2、件监听器：实现ApplicationListener接口，并指定监听的事件类型
+    3、使用ApplicationContext的publishEvent方法来发布事件
