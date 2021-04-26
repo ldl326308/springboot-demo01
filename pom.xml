@@ -58,7 +58,7 @@
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
-            <version>2.6</version>
+            <version>2.7</version>
         </dependency>
         <!-- Bean 的声明周期配置支持 -->
         <dependency>
